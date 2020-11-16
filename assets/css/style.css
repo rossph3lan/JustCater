@@ -1,0 +1,13 @@
+.navbar-brand img{
+    height: 70px;
+}
+
+.navbar{
+    font-size: 1.15rem;
+    font-weight: 600;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1)
+}
+
+.nav-item {
+    padding: 12px;
+}
