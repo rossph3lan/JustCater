@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
-body{
-    margin: 0;
-    padding: 0;
-}
+
+/*------------------------Nav Bar------------------------*/
 
 .navbar-brand img{
     height: 80px;
@@ -20,19 +19,62 @@ body{
     padding: 20px;
 }
 
-h1, h2{
-    padding: 40px;
-    font-size: 24px;
+/*------------------------Heading------------------------*/
+
+h1{
     text-align: center;
+    font-family: "Merriweather", sans-serif;
+    padding-top: 24px;
+}
+
+h2{
+    text-align: center;
+    font-family: "Merriweather", sans-serif;
+    padding: 12px;
+}
+
+.img-fluid{
+   padding: 12px; 
+}
+
+/*------------------------Home Page Paragraph------------------------*/
+
+h3 {
+    text-align: center;
+    font-family: "Merriweather", sans-serif;
+    padding: 12px;
+}
+
+.paragraph{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 110%;
+}
+
+/*------------------------Menu Section------------------------*/
+
+.col-sm{
+    text-align: center;
+    padding: 24px;
+}
+
+.col-sm h4{
+    padding: 12px;
     font-family: "Merriweather", sans-serif;
 }
 
+.col-sm img {
+    width: 240px;
+    height: 240px;
+}
 
-footer{
-    background-color:#B8B8B8;
-    color: #fff;
-    margin: 0;
-    padding: 20px
+/*------------------------Gallery------------------------*/
+
+.paragraph-gallery{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 120%;
+    padding-bottom: 20px;
 }
 
 .col-lg-4{
@@ -44,11 +86,48 @@ footer{
     height: 360px;
 }
 
-.col-sm {
-    padding: 10px;
+/*------------------------Form------------------------*/
+
+.contact-heading{
+    font-family: "Merriweather", sans-serif;
+    padding-bottom: 36px;
 }
 
-.col-sm img {
-    width: 240px;
-    height: 240px;
+.contact-paragraph{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 110%;
+    padding-bottom: 24px;
+}
+
+.contact-paragraph ul{
+    list-style: none;
+}
+
+.contact-form{
+    padding: 36px;
+}
+
+/*------------------------Footer------------------------*/
+
+footer{
+    background-color: black;
+    color: #fff;
+    min-height: 120px;
+    margin-top: 48px;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links{
+    padding: 15px;
+}
+
+/*--------------------------Media Queries----------------*/
+
+@media(min-width: 992px){
+    padding-top:30px;
+    min-height:240px;
+    margin:0 auto;
+    max-width:50%;
 }
