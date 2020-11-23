@@ -1,6 +1,6 @@
 # JustCater
 
-I chose to do my first project for a family members business which i have been involved from the start. JustCater is a local artisan catering company located in the country side of Waterford.
+I chose to do my first project for a family members business which i have been involved from the start. JustCater is a local artisan catering company located in the country side of Waterford. He had previously got a website done and was very unhappy with it. Since learning these new skill i decided to make a new website my self.
 
 
 # UX
@@ -118,6 +118,15 @@ The languages used in the project were HTML and CSS. Other frameworks were used 
 # Testing
 
 # Deployment
+
+This project was developed using [GitPod IDE](https://www.gitpod.io/), commited to git and pushed to GitHub using the built in terminal with in GitPod.
+
+To deploy this page to GitHub pages from its [GitHub repository](https://github.com/SmokeySam/just-cater), following steps were taken:
+
+1. Log into to GitHub.
+
+2.
+
 
 # Credits
 
