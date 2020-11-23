@@ -1,6 +1,6 @@
 # JustCater
 
-I chose to do my first project for a family members business which i have been involved from the start. JustCater is a local artisan catering company located in the country side of Waterford. He had previously got a website done and was very unhappy with it. Since learning these new skill i decided to make a new website my self.
+I chose to do my first project for a family members business which I have been involved from the start. JustCater is a local artisan catering company located in the country side of Waterford. He had previously got a website done and was very unhappy with it. Since learning these new skills I decided to make a new website my self.
 
 
 # UX
@@ -11,7 +11,9 @@ The goal of JustCater is to provide a large range of catering functions for spec
 
 ## Developer and Business Goals
 
-Before i had started this project both me and the owner had a meeting and agreed upon the following goals of what we wanted to achieve as a developer and business owner.
+Before I had started this project both me and the owner had a meeting and agreed upon the following goals of what we wanted to achieve as a developer and business owner. Which can be outlined below.
+
+## User Stories
 
 **As a business owner I want my customers to:**
 
@@ -32,15 +34,15 @@ Before i had started this project both me and the owner had a meeting and agreed
 
 * For my client to be satisfied with my work and for it to drive more traffic to his business.
 
-**As a customer of JustCater I want:**
+**As a customer of JustCater, I want:**
 
 * To be able to view a website for JustCater.
 
-* To be able to contact JustCater for a inquiry.
+* To be able to contact JustCater for an inquiry.
 
 * See information about the company.
 
-* View past events JustCater have catered for.
+* To View past events JustCater have catered for.
 
 * Browse sample menus for their selected event.
 
@@ -51,9 +53,9 @@ The design of the website is easy and simple to navigate through. The following 
 
 **Fonts**
 
-* The font i used for the headings is the "Merriweather" font which i found appealing on the eye and which had a professional appeal about it.
+* The font I used for the headings is the "Merriweather" font which I found appealing on the eye and which had a professional appeal about it.
 
-* The font i used for my paragraphs is the "Oswald" font which i have used before and have seen many times and is a font in which people are accustomed to seeing.
+* The font I used for my paragraphs is the "Oswald" font which I have used before and have seen many times and is a font in which people are accustomed to seeing.
 
 **Icons**
 
@@ -61,21 +63,21 @@ The design of the website is easy and simple to navigate through. The following 
 
 **Colors**
 
-* The primary color is white. I chose to use white as the background color and using black as the font color as i wanted the images displayed on the page to be popped out. I wanted the images to catch the users attention upon visiting the page. The colors of black and white also work very well together and can be understood easy.
+* The primary color is white. I chose to use white as the background color and using black as the font color as I wanted the images displayed on the page to be popped out. I wanted the images to catch the users attention upon visiting the page. The colors of black and white also work very well together and can be understood easy.
 
 ## Images
 
 * I used the JustCater logo image on my navbar. I wanted the logo to be seen on every page visited on the site.
 
-* On the home page of the website I have a responsive image it is a picture of beautiful canapes. I used this image because of the quality and canapes also have a wedding appeal and it would capture viewers attention and also other catering company in this area doesn't offer food of the kind.
+* On the home page of the website, I have a responsive image it is a picture of beautiful canapes. I used this image because of the quality and canapes also have a wedding appeal and it would capture viewers attention and also other catering company in this area doesn't offer food of the kind.
 
-* Below the main home images I have 3 menus offering different choices based on occasion. Each of these menus has a image that is used to describe them. I used these images as my CTA's to get the user to want to see more of what these menus offered and consisted of.
+* Below the main home images, I have three menus offering different choices based on occasion. Each of these menus has an image that is used to describe them. I used these images as my CTA's to get the user to want to see more of what these menus offered and consisted of.
 
 * On the gallery page I used 24 images each in a row of three (Desktop view) as odd numbers are more catching to the eye. The images are sized large and I used a variety of different types of pictures to show off what JustCater can offer.
 
 ## Styling and Structure
 
-For the structure of the page I wanted it simple and easy to navigate through for the user and from them to be able to get the information they were seeking.
+For the structure of the page, I wanted it simple and easy to navigate through for the user and from them to be able to get the information they were seeking.
 
 * The navbar consists of the logo and a menu which offers there 3 pages available on the website: Home, Gallery and Contact. The logo and be clicked to return to the home page.
 
@@ -89,7 +91,7 @@ For the structure of the page I wanted it simple and easy to navigate through fo
 
 * The gallery page consists of images of past events, dishes and members of the team at work.
 
-* The contact page consists if a paragraph asking the user to give information that the company would need for an inquiry. It is followed by a form for the user to submit for any enquirey they would like to make JustCater.
+* The contact page consists of a paragraph asking the user to give information that the company would need for an inquiry. It is followed by a form for the user to submit for any enquiry they would like to make to JustCater.
 
 ## Wire Frames
 
@@ -115,8 +117,6 @@ The languages used in the project were HTML and CSS. Other frameworks were used 
 
 * [Font Awesome](https://fontawesome.com/) was used for my social media links located on the footer.
 
-# Testing
-
 # Deployment
 
 This project was developed using [GitPod IDE](https://www.gitpod.io/), commited to git and pushed to GitHub using the built in terminal with in GitPod.
@@ -126,6 +126,8 @@ To deploy this page to GitHub pages from its [GitHub repository](https://github.
 1. Log into to GitHub.
 
 2.
+
+# Testing
 
 
 # Credits
