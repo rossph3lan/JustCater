@@ -1,6 +1,6 @@
 # JustCater
 
-I chose to do my first project for a family members business which I have been involved from the start. JustCater is a local artisan catering company located in the country side of Waterford. He had previously got a website done and was very unhappy with it. Since learning these new skills I decided to make a new website my self.
+I chose to do my first project for a family members business which I have been involved from the start. JustCater is a local artisan catering company located in the country side of Waterford. He had previously got a website done and was unhappy with it. Since learning these new skills I decided to make a new website my self.
 
 
 # UX
@@ -12,6 +12,29 @@ The goal of JustCater is to provide a large range of catering functions for spec
 ## Developer and Business Goals
 
 Before I had started this project both me and the owner had a meeting and agreed upon the following goals of what we wanted to achieve as a developer and business owner. Which can be outlined below.
+
+## Planes Of Scope
+
+1. **Strategy Plane**
+
+* During this process we asked ourselves what we wanted to achieve from the website, who we wanted to go onto the website and what they needed to see when they arrived at the website.
+
+2. **Scope Plane**
+
+* At this stage we went through what features users would need to see or use to gain the information they were seeking. Such as: text, images and contact form.
+
+3. **Structure Plane**
+
+* We went through the lay out of the pages and how easily navigated through they could be for the user to find their destination. We define how the user interacts and responds to the webpages.
+
+4. **Skeleton Plane**
+
+* We looked at how the website would be presented and visually structured. Things that came into consideration were the colors of the background, fonts, images used and other components.  We also planned where each images and call to action would be located on the website.
+
+5. **Surface Plane**
+
+* At this stage we had all our ideas together. We put them together to understand the look and feel of the website. Put ourselves in the eyes of the user.
+
 
 ## User Stories
 
@@ -36,15 +59,19 @@ Before I had started this project both me and the owner had a meeting and agreed
 
 **As a customer of JustCater, I want:**
 
-* To be able to view a website for JustCater.
+* To Easily navigate thought the website.
+
+* To read about this company and what they are about.
+
+* To browse menus for my planned event.
+
+* To view pictures of the food, they have to offer.
 
 * To be able to contact JustCater for an inquiry.
 
-* See information about the company.
+* To see them on other social media platforms.
 
-* To View past events JustCater have catered for.
 
-* Browse sample menus for their selected event.
 
 
 ## Design Choices
@@ -79,7 +106,7 @@ The design of the website is easy and simple to navigate through. The following 
 
 For the structure of the page, I wanted it simple and easy to navigate through for the user and from them to be able to get the information they were seeking.
 
-* The navbar consists of the logo and a menu which offers there 3 pages available on the website: Home, Gallery and Contact. The logo and be clicked to return to the home page.
+* The navbar consists of the logo and a menu which offers three pages available on the website: Home, Gallery and Contact. The logo and be clicked to return to the home page.
 
 * The home page consists of our main image to grab the users attention.
 
@@ -119,7 +146,7 @@ The languages used in the project were HTML and CSS. Other frameworks were used 
 
 # Deployment
 
-This project was developed using [GitPod IDE](https://www.gitpod.io/), commited to git and pushed to GitHub using the built in terminal with in GitPod.
+This project was developed using [GitPod IDE](https://www.gitpod.io/), committed to git and pushed to GitHub using the built-in terminal with in GitPod.
 
 To deploy this page to GitHub pages from its [GitHub repository](https://github.com/SmokeySam/just-cater), following steps were taken:
 
@@ -141,23 +168,169 @@ To deploy this page to GitHub pages from its [GitHub repository](https://github.
 
 To clone this project from GitHub:
 
-1. 
+1. Click this link to go to the [Project GitHub repository](https://github.com/SmokeySam/just-cater).
 
-2. 
+2. Under the repository name click "Clone or Download."
 
-3. 
+3. In the clone HTTPS section, copy the clone URL for the repository.
 
-4. 
+4. In your local IDE open GitBash.
 
-5. 
+5. Change the current working directory to the location where you want the cloned directory to be made.
 
-6. 
+6. Type ` git clone`, then the URL you copied.
 
-7. 
+         `git clone https://github.com/SmokeySam/just-cater.git`
+
+7. Press Enter. Your local clone will be created.
 
 
 # Testing
 
+## Validation
+
+* I tested the my code through [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to ensure my code was running smoothly with no errors.
+
+## Testing Client User Stories
+
+1. **As a customer of JustCater, I want to easily navigate thought the website.**
+
+* The navigation of the website was structured for the user to easily find where they wanted to go and where the information the were seeking is.
+
+* The menu consists of three pages: Home, Gallery and Contact. The most sought after pages of the user.
+
+* The white color used in the background makes other contents of the page pop out, so the user is not distracted from the information.
+
+2. **As a customer of JustCater, I want to read about this company and what they are about.**
+
+* I have implemented paragraphs on the home page describing what the company does and what it has to offer the users.
+
+3. **As a customer of JustCater, I want to browse menus for my planned event.**
+
+* Menus are under paragraph about the business. There are three different samples.
+
+* Menus are set to open in a different tab upon being clicked.
+
+4. **As a customer of JustCater, I want to view pictures of the food they have to offer.**
+
+* On arrival of the home page, a large grabbing image catches the users attention of beautiful canapes.
+
+* There is a separate page for the gallery. On the gallery page it consists of 24 images. Images selected have been picked to show a variety of different aspects of the company, such as food, past events and the team at work.
+
+* The clickable menus are also added by images which represent the type of menu they are looking at.
+
+5. **As a customer of JustCater, I want to be able to contact JustCater for an inquiry.**
+
+* The last page on the website is a contact page. I have made a form there for the user to contact the company regarding an inquiry.
+
+* In the footer located on each page is a telephone number and email address of JustCater.
+
+6. **As a customer of JustCater, I want to see them on other social media platforms.**
+
+* Located in the footer element are social media links to other platforms that JustCater uses.
+
+## Bugs
+
+* Making my contact form i ran into a problem. Upon submiting the message a error 404 came up.
+
+      <div class="container contact-form">
+            <form method="post">
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+</div>
+
+* I decided to change my `form method` from `post` to `get`.
+
+* I then added another page "thankyou.html" to show a thank you message for subbmision of the message which can redirect them back to the home page.
+
+
+       <div class="container contact-form">
+            <form method="get" action="thankyou.html">
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" required>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-dark">Submit</button>                                                                                                                      
+                        </div>                   
+                          </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+</div>
+
+
 
 # Credits
 
+## Content
+
+* All code taken from other sources is documented below with links. Other code is wrote by myself with snippets or adjustments made upon reading and researching forums.
+  Websites used to gain these pieces of information were [Youtube](https://www.youtube.com/), [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/).
+
+1. **Fonts**
+
+* Fonts used were "Merriweather" and "Oswald". Both were imported from [Font Awesome](https://fontawesome.com/).
+
+2. **Navbar**
+
+* I styled my navbar by using documentation from the [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/).
+
+3. **Gallery**
+
+* I structured the gallery page by using the Bootstrap image thumbnail and arranging it in rows and columns. [Bootstrap](https://getbootstrap.com/docs/4.4/content/images/).
+
+4. **Contact Form**
+
+*  I got help with my contact form from [Bootsnip](https://bootsnipp.com/snippets/7nmOW) where I used certain pieces of the code used.
+
+5. **Footer**
+
+* My footer was taken from another project i had worked on during the course and small modifications were made to it. [Font Awesome](https://fontawesome.com/).
+
+6. **README**
+
+* The structure of my README file was taken from a series of videos offered by The Code Institute and also from [README Template](https://github.com/Code-Institute-Solutions/readme-template) page.
+
+
+## Media
+
+* Images used are owned by JustCater.
+
+* Menus used are owned by JustCater.
+
+## Acknowledgements
+
+* I was inspiration to do this project because I have been part of JustCater from the start, and would like to see more customers engage with the company from an online point of view and for the company to grow. After learning these new skills, I was eager to develop this Website.

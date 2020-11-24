@@ -127,13 +127,3 @@ footer{
     text-align: center;
     font-family: "Oswald", sans-serif;
 }
-
-
-/*--------------------------Media Queries----------------*/
-
-@media screen and (min-width: 992px){
-    padding-top: 30px;
-    min-height: 240px;
-    margin: 0 auto;
-    max-width: 50%;
-}
