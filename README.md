@@ -123,9 +123,38 @@ This project was developed using [GitPod IDE](https://www.gitpod.io/), commited 
 
 To deploy this page to GitHub pages from its [GitHub repository](https://github.com/SmokeySam/just-cater), following steps were taken:
 
-1. Log into to GitHub.
+1. Log into to **GitHub**.
 
-2.
+2. From the list of repositories on the left side, click **SmokeySam/just-cater**.
+
+3. Select **Settings** from the menu item located near the top.
+
+4. Scroll down to the **GitHub Pages** section.
+
+5. Under **Source** click the menu labeled none and select **Master Branch**.
+
+6. After selecting **Master Branch** the page is automatically refreshed, the website is now deployed.
+
+7. Go back to the **GitHub Pages** section to retrieve the link to the deployed website.
+
+### How to run this project locally
+
+To clone this project from GitHub:
+
+1. 
+
+2. 
+
+3. 
+
+4. 
+
+5. 
+
+6. 
+
+7. 
+
 
 # Testing
 
