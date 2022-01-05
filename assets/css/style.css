@@ -3,10 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 /*-----Body-----*/
-/*Background color*/
-body{
-    background-color: grey;
-}
 
 /*-----Navbar-----*/
 .navbar{
@@ -28,23 +24,29 @@ body{
 /*-----Home page-----*/
 
 /*-----Hero-----*/
+/*Background color*/
+.hero{
+    background-color: grey;
+}
 /*Company Name*/
 .company-name{
-    padding: 20px;
+    color: white;
+    padding: 40px;
 }
 /*Hero image*/
 .hero-image{
-    padding: 40px;
-}
-/*About company*/
-.about{
-    padding: 20px;
-}
-.about > p {
-    padding-top: 20px;
+    height: 400px;
+    padding-bottom: 40px;
 }
 
 /*-----Call to actions-----*/
+/*Row color*/
+.call-to-actions{
+    background-color: white;
+}
+.cta-headings{
+    padding: 40px;
+}
 
 
 
