@@ -35,25 +35,31 @@
 }
 /*Hero image*/
 .hero-image{
-    height: 400px;
+   padding-bottom: 40px;
+}
+
+/*-----About-----*/
+/*space between sections*/
+.home-section{
+   margin-top: 60px; 
+   margin-bottom: 60px;
+   margin-left: auto;
+}
+/*Home section heading*/
+.home-section-heading{
+    padding-top: 20px;
     padding-bottom: 40px;
 }
-
-/*-----Call to actions-----*/
-/*Row color*/
-.call-to-actions{
-    background-color: white;
+/*Home section parapgraph*/
+.home-section-paragraph{
+    letter-spacing: 1px;
+    margin-bottom: 40px;
 }
-.cta-headings{
-    padding: 40px;
+/*Home section images*/
+.home-section-image{
+    height: 300px;
 }
 
-
-
-.col-sm img {
-    width: 240px;
-    height: 240px;
-}
 
 /*------------------------Gallery------------------------*/
 
@@ -106,7 +112,7 @@
 /*------------------------Footer------------------------*/
 
 footer{
-    background-color: white;
+    background-color: grey;
     color: black;
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
     min-height: 120px;
