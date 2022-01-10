@@ -59,11 +59,21 @@
 .home-section-image{
     height: 300px;
 }
+
 /*-----About section-----*/
+
 /*-----Menus section-----*/
 .menus{
     background-color: grey;
 }
+
+/*-----Gallery section-----*/
+
+/*-----Contact us section-----*/
+.contact-us{
+    background-color: grey;
+}
+
 
 
 /*------------------------Gallery------------------------*/
