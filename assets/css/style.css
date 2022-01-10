@@ -41,23 +41,21 @@
 /*----Home sections-----*/
 /*space between sections*/
 .home-section{
-   margin-top: 60px; 
-   margin-bottom: 60px;
-   margin-left: auto;
+   padding: 60px;
+   text-align: center;
 }
 /*Home section heading*/
 .home-section-heading{
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding: 20px;
 }
 /*Home section parapgraph*/
 .home-section-paragraph{
     letter-spacing: 1px;
-    margin-bottom: 40px;
 }
 /*Home section images*/
 .home-section-image{
     height: 300px;
+    padding: 20px;
 }
 
 /*About section*/
@@ -65,6 +63,7 @@
 /*Menus section*/
 .menus{
     background-color: grey;
+    color: white;
 }
 
 /*Gallery section*/
@@ -72,19 +71,39 @@
 /*Contact us section*/
 .contact-us{
     background-color: grey;
+    color: white;
 }
 
 /*-----Footer-----*/
-
 footer{
     background-color: white;
     color: black;
+    font-size: 1.15rem;
+    font-weight: 600;
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
-    min-height: 120px;
-    margin-top: 48px;
+    font-family: "Merriweather", sans-serif;
     padding: 20px;
     text-align: center;
-    font-family: "Oswald", sans-serif;
+}
+/*Footer section*/
+.footer-section{
+    padding: 20px;
+}
+/*Footer heading*/
+.footer-heading{
+    padding-bottom: 20px;
+}
+/*Links*/
+a{
+    color: black;
+}
+/*Change to blue hoovering over links*/
+footer>a:hoover{
+    color: blue;
+}
+/*Padding between icons*/
+i.fab{
+    padding: 4px;
 }
 
 /*-----Page heading-----*/
@@ -104,12 +123,6 @@ footer{
 /*-----Menu Page-----*/
 
 /*-----Gallery Page-----*/
-.paragraph-gallery{
-    text-align: center;
-    font-family: "Oswald", sans-serif;
-    font-size: 120%;
-    padding-bottom: 20px;
-}
 .col-lg-4 img {
     width: 320px;
     height: 320px;
@@ -117,7 +130,6 @@ footer{
     display: block;
     padding: 10px;
 }
-
 
 /*-----Contact Page-----*/
 .contact-form{
@@ -128,7 +140,8 @@ footer{
 
 .thankyou-message{
     text-align: center;
-    font-family: "Oswald", sans-serif;
+    font-family: "Merriweather", sans-serif;
+    font-weight: 600;
     padding-top: 120px;
     padding-bottom: 120px;
 }
