@@ -38,7 +38,7 @@
    padding-bottom: 40px;
 }
 
-/*-----About-----*/
+/*----Home sections-----*/
 /*space between sections*/
 .home-section{
    margin-top: 60px; 
@@ -58,6 +58,11 @@
 /*Home section images*/
 .home-section-image{
     height: 300px;
+}
+/*-----About section-----*/
+/*-----Menus section-----*/
+.menus{
+    background-color: grey;
 }
 
 
