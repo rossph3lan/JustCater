@@ -44,8 +44,8 @@
    padding: 60px;
    text-align: center;
 }
-/*Home section heading*/
-.home-section-heading{
+/*Home section title*/
+.home-section-title{
     padding: 20px;
 }
 /*Home section parapgraph*/
@@ -61,7 +61,7 @@
 /*About section*/
 
 /*Menus section*/
-.menus{
+.menus-section{
     background-color: grey;
     color: white;
 }
@@ -69,7 +69,7 @@
 /*Gallery section*/
 
 /*Contact us section*/
-.contact-us{
+.contact-us-section{
     background-color: grey;
     color: white;
 }
@@ -110,9 +110,12 @@ i.fab{
 .page-heading{
     padding: 40px;
     text-align: center;
+    background-color: grey;
+    color: white;
 }
 /*Page title*/
 .page-title{
+    padding: 20px;
     text-decoration: underline;
 }
 /*Page paragraph*/
@@ -121,14 +124,50 @@ i.fab{
 }
 
 /*-----Menu Page-----*/
+/*Menus row*/
+.menus{
+    padding: 60px;
+    text-align: center;
+}
+/*Menu title*/
+.menu-title{
+    padding: 20px;
+}
+/*Menu descrition*/
+.menu-description{
+    letter-spacing: 1px;
+}
+/*Menu image*/
+.menu-image{
+    height: 300px;
+    padding: 20px;
+}
+
+/*Party menu*/
+
+/*Wedding menu*/
+.wedding-menu{
+    background-color: grey;
+    color: white;
+}
+
+/*BBQ menu*/
+
+/*Desserts menu*/
+.desserts-menu{
+    background-color: grey;
+    color: white;
+}
 
 /*-----Gallery Page-----*/
-.col-lg-4 img {
+/*Gallery imaiges*/
+.gallery-images {
     width: 320px;
     height: 320px;
     margin: auto;    
     display: block;
-    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 /*-----Contact Page-----*/
@@ -136,7 +175,7 @@ i.fab{
     padding: 36px;
 }
 
-/*------------------------Thank You Page------------------------*/
+/*-----Thank You Page-----*/
 
 .thankyou-message{
     text-align: center;
