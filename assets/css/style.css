@@ -88,16 +88,29 @@ footer{
 }
 
 
+/*-----Page heading-----*/
+.page-heading{
+    padding: 40px;
+    text-align: center;
+}
+/*Page title*/
+.page-title{
+    text-decoration: underline;
+}
+/*Page paragraph*/
+.page-paragraph{
+    padding: 20px;
+}
 
-/*------------------------Gallery------------------------*/
+/*-----Menu Page-----*/
 
+/*-----Gallery Page-----*/
 .paragraph-gallery{
     text-align: center;
     font-family: "Oswald", sans-serif;
     font-size: 120%;
     padding-bottom: 20px;
 }
-
 .col-lg-4 img {
     width: 320px;
     height: 320px;
@@ -107,22 +120,7 @@ footer{
 }
 
 
-/*------------------------Form------------------------*/
-
-.contact-heading{
-    font-family: "Merriweather", sans-serif;
-    padding-bottom: 36px;
-}
-
-.contact-paragraph{
-    text-align: center;
-    font-family: "Oswald", sans-serif;
-    font-size: 110%;
-    padding-bottom: 24px;
-}
-
-
-
+/*-----Contact Page-----*/
 .contact-form{
     padding: 36px;
 }
