@@ -60,16 +60,16 @@
     height: 300px;
 }
 
-/*-----About section-----*/
+/*About section*/
 
-/*-----Menus section-----*/
+/*Menus section*/
 .menus{
     background-color: grey;
 }
 
-/*-----Gallery section-----*/
+/*Gallery section*/
 
-/*-----Contact us section-----*/
+/*Contact us section*/
 .contact-us{
     background-color: grey;
 }
@@ -86,7 +86,6 @@ footer{
     text-align: center;
     font-family: "Oswald", sans-serif;
 }
-
 
 /*-----Page heading-----*/
 .page-heading{
