@@ -16,26 +16,26 @@
 .navbar-brand img{
     height: 80px;
 }
-/*Spacing between links*/
+/*Spacing between nav links*/
 .nav-item {
     padding: 20px;
 }
 
-/*-----Home page-----*/
+/*----------Home page----------*/
 
 /*-----Hero-----*/
-/*Background color*/
+/*Hero container*/
 .hero{
     background-color: grey;
+    height: 600px;
 }
-/*Company Name*/
+/*Company name*/
 .company-name{
     color: white;
     padding: 40px;
 }
 /*Hero image*/
 .hero-image{
-   padding-bottom: 40px;
 }
 
 /*----Home sections-----*/
@@ -55,7 +55,7 @@
 /*Home section images*/
 .home-section-image{
     height: 300px;
-    width: 300;
+    width: 300px;
     padding: 20px;
 }
 
@@ -113,6 +113,8 @@ i.fab{
     text-align: center;
     background-color: grey;
     color: white;
+    letter-spacing: 1px;
+    font-size: large;
 }
 /*Page title*/
 .page-title{
