@@ -24,7 +24,7 @@
 /*-----Hero-----*/
 /*Hero container*/
 .hero{
-    background-color: grey;
+    background-color:#A9A9A9;
 }
 /*Company name*/
 .company-name{
@@ -55,18 +55,20 @@
     height: 300px;
     width: 300px;
     padding: 20px;
+    margin: auto;    
+    display: block;
 }
 
 /*About section*/
 /*Menus section*/
 .menus-section{
-    background-color: grey;
+    background-color:#A9A9A9;
     color: white;
 }
 /*Gallery section*/
 /*Contact us section*/
 .contact-us-section{
-    background-color: grey;
+    background-color:#A9A9A9;
     color: white;
 }
 
@@ -74,7 +76,7 @@
 .page-heading{
     padding: 40px;
     text-align: center;
-    background-color: grey;
+    background-color:#A9A9A9;
     color: white;
     letter-spacing: 1px;
     font-size: large;
@@ -108,34 +110,35 @@
     height: 300px;
     width: 300px;
     padding: 20px;
+    margin: auto;    
+    display: block;
 }
 
 /*Party menu*/
 /*Wedding menu*/
 .wedding-menu{
-    background-color: grey;
+    background-color:#A9A9A9;
     color: white;
 }
 /*BBQ menu*/
 /*Desserts menu*/
 .desserts-menu{
-    background-color: grey;
+    background-color:#A9A9A9;
     color: white;
 }
 
 /*----------Gallery Page----------*/
 /*Container color*/
 .gallery-container-grey{
-    background-color: grey;
+    background-color:#A9A9A9;
 }
 /*Gallery images*/
 .gallery-images {
     width: 300px;
     height: 300px;
+    padding: 20px;
     margin: auto;    
     display: block;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 /*----------Contact Page----------*/
