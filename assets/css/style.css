@@ -37,7 +37,7 @@
 }
 
 /*----Home sections-----*/
-/*space between sections*/
+/*Space between sections*/
 .home-section{
    padding: 60px;
    text-align: center;
@@ -73,7 +73,26 @@
     color: white;
 }
 
-/*-----Footer-----*/
+/*-----Page heading-----*/
+.page-heading{
+    padding: 40px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    letter-spacing: 1px;
+    font-size: large;
+}
+/*Page title*/
+.page-title{
+    padding: 20px;
+    text-decoration: underline;
+}
+/*Page paragraph*/
+.page-paragraph{
+    padding: 20px;
+}
+
+/*----------Footer----------*/
 footer{
     background-color: white;
     color: black;
@@ -103,25 +122,6 @@ footer>a:hoover{
 /*Padding between icons*/
 i.fab{
     padding: 4px;
-}
-
-/*-----Page heading-----*/
-.page-heading{
-    padding: 40px;
-    text-align: center;
-    background-color: grey;
-    color: white;
-    letter-spacing: 1px;
-    font-size: large;
-}
-/*Page title*/
-.page-title{
-    padding: 20px;
-    text-decoration: underline;
-}
-/*Page paragraph*/
-.page-paragraph{
-    padding: 20px;
 }
 
 /*-----Menu Page-----*/
