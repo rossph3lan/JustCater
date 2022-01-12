@@ -58,15 +58,12 @@
 }
 
 /*About section*/
-
 /*Menus section*/
 .menus-section{
     background-color: grey;
     color: white;
 }
-
 /*Gallery section*/
-
 /*Contact us section*/
 .contact-us-section{
     background-color: grey;
@@ -90,6 +87,63 @@
 /*Page paragraph*/
 .page-paragraph{
     padding: 20px;
+}
+
+/*----------Menu Page----------*/
+/*Menus row*/
+.menus{
+    padding: 60px;
+    text-align: center;
+}
+/*Menu title*/
+.menu-title{
+    padding: 20px;
+}
+/*Menu descrition*/
+.menu-description{
+    letter-spacing: 1px;
+}
+/*Menu image*/
+.menu-image{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+
+/*Party menu*/
+/*Wedding menu*/
+.wedding-menu{
+    background-color: grey;
+    color: white;
+}
+/*BBQ menu*/
+/*Desserts menu*/
+.desserts-menu{
+    background-color: grey;
+    color: white;
+}
+
+/*----------Gallery Page----------*/
+/*Container color*/
+.gallery-container-grey{
+    background-color: grey;
+}
+/*Gallery images*/
+.gallery-images {
+    width: 300px;
+    height: 300px;
+    margin: auto;    
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*----------Contact Page----------*/
+.contact-form{
+    padding: 36px;
+}
+.submit-button{
+    text-align: center;
 }
 
 /*----------Footer----------*/
@@ -122,60 +176,4 @@ footer>a:hoover{
 /*Padding between icons*/
 i.fab{
     padding: 4px;
-}
-
-/*-----Menu Page-----*/
-/*Menus row*/
-.menus{
-    padding: 60px;
-    text-align: center;
-}
-/*Menu title*/
-.menu-title{
-    padding: 20px;
-}
-/*Menu descrition*/
-.menu-description{
-    letter-spacing: 1px;
-}
-/*Menu image*/
-.menu-image{
-    height: 300px;
-    width: 300px;
-    padding: 20px;
-}
-
-/*Party menu*/
-
-/*Wedding menu*/
-.wedding-menu{
-    background-color: grey;
-    color: white;
-}
-
-/*BBQ menu*/
-
-/*Desserts menu*/
-.desserts-menu{
-    background-color: grey;
-    color: white;
-}
-
-/*-----Gallery Page-----*/
-/*Gallery imaiges*/
-.gallery-images {
-    width: 300px;
-    height: 300px;
-    margin: auto;    
-    display: block;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-/*-----Contact Page-----*/
-.contact-form{
-    padding: 36px;
-}
-.submit-button{
-    text-align: center;
 }
