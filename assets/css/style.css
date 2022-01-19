@@ -180,3 +180,18 @@ footer>a:hoover{
 i.fab{
     padding: 4px;
 }
+
+/*----------Media queries on mobile----------*/
+/*Images on mobile*/
+@media only screen and (max-width: 600px) {
+    .home-section, .menus
+    {
+    margin:0;
+    }
+    .home-section-image, .menu-image
+    {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    }
+    }
