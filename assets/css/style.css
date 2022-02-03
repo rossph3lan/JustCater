@@ -1,197 +1,217 @@
-/*-----Fonts-----*/
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+/* Google font import */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 
-/*-----Navbar-----*/
-.navbar{
-    font-size: 1.15rem;
-    font-weight: 600;
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
-    font-family: "Merriweather", sans-serif;
-    background-color: white;
+/* Navbar */
+.navbar {
+  font-size: 1.15rem; /* Font size */
+  font-weight: 600; /* Font weight */
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1); /* Box shadow */
+  font-family: "Merriweather", sans-serif; /* Font family */
+  background-color: white; /* Navbar colour */
 }
-/*Company logo*/
-.navbar-brand img{
-    height: 80px;
+
+/* Company logo */
+.navbar-brand img {
+  height: 80px; /* Logo height */
 }
-/*Spacing between nav links*/
+
+/* Nav links */
 .nav-item {
-    padding: 20px;
+  padding: 20px; /* Spacing between nav links */
 }
 
-/*----------Home page----------*/
+/* Home page */
 
-/*-----Hero-----*/
-/*Hero container*/
-.hero{
-    background-color:#A9A9A9;
-}
-/*Company name*/
-.company-name{
-    color: white;
-    padding: 40px;
-}
-/*Hero image*/
-.hero-image{
-    padding-bottom: 40px;
+/* Hero */
+/*Hero container */
+.hero {
+  background-color: #a9a9a9; /* Colour of container */
 }
 
-/*----Home sections-----*/
-/*Space between sections*/
-.home-section{
-   padding: 60px;
-   text-align: center;
-}
-/*Home section title*/
-.home-section-title{
-    padding: 20px;
-}
-/*Home section parapgraph*/
-.home-section-paragraph{
-    letter-spacing: 1px;
-}
-/*Home section images*/
-.home-section-image{
-    height: 300px;
-    width: 300px;
-    padding: 20px;
-    margin: auto;    
-    display: block;
+/* Company name */
+.company-name {
+  color: white; /* Text color */
+  padding: 40px; /* Padding around company name */
 }
 
-/*About section*/
-/*Menus section*/
-.menus-section{
-    background-color:#A9A9A9;
-    color: white;
-}
-/*Gallery section*/
-/*Contact us section*/
-.contact-us-section{
-    background-color:#A9A9A9;
-    color: white;
+/* Hero image */
+.hero-image {
+  padding-bottom: 40px; /* Padding under image */
 }
 
-/*-----Page heading-----*/
-.page-heading{
-    padding: 40px;
-    text-align: center;
-    background-color:#A9A9A9;
-    color: white;
-    letter-spacing: 1px;
-    font-size: large;
-}
-/*Page title*/
-.page-title{
-    padding: 20px;
-    text-decoration: underline;
-}
-/*Page paragraph*/
-.page-paragraph{
-    padding: 20px;
+/* Home sections */
+/* Space between sections */
+.home-section {
+  padding: 60px; /* Padding */
+  text-align: center; /* Centering text */
 }
 
-/*----------Menu Page----------*/
-/*Menus row*/
-.menus{
-    padding: 60px;
-    text-align: center;
-}
-/*Menu title*/
-.menu-title{
-    padding: 20px;
-}
-/*Menu descrition*/
-.menu-description{
-    letter-spacing: 1px;
-}
-/*Menu image*/
-.menu-image{
-    height: 300px;
-    width: 300px;
-    padding: 20px;
-    margin: auto;    
-    display: block;
+/* Home section title */
+.home-section-title {
+  padding: 20px; /* Padding */
 }
 
-/*Party menu*/
-/*Wedding menu*/
-.wedding-menu{
-    background-color:#A9A9A9;
-    color: white;
-}
-/*BBQ menu*/
-/*Desserts menu*/
-.desserts-menu{
-    background-color:#A9A9A9;
-    color: white;
+/* Home section parapgraph */
+.home-section-paragraph {
+  letter-spacing: 1px; /* Spacing between letters */
 }
 
-/*----------Gallery Page----------*/
-/*Container color*/
-.gallery-container-grey{
-    background-color:#A9A9A9;
-}
-/*Gallery images*/
-.gallery-images {
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-    margin: auto;    
-    display: block;
+/* Home section images */
+.home-section-image {
+  height: 300px; /* Height of image */
+  width: 300px; /* Width of image */
+  padding: 20px; /* Padding around image */
+  margin: auto; /* Margin auto */
+  display: block; /* Stays in a row by itself */
 }
 
-/*----------Contact Page----------*/
-.contact-form{
-    padding: 36px;
-}
-.submit-button{
-    text-align: center;
-}
-
-/*----------Footer----------*/
-footer{
-    background-color: white;
-    color: black;
-    font-size: 1.15rem;
-    font-weight: 600;
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
-    font-family: "Merriweather", sans-serif;
-    padding: 20px;
-    text-align: center;
-}
-/*Footer section*/
-.footer-section{
-    padding: 20px;
-}
-/*Footer heading*/
-.footer-heading{
-    padding-bottom: 20px;
-}
-/*Links*/
-a{
-    color: black;
-}
-/*Change to blue hoovering over links*/
-footer>a:hoover{
-    color: blue;
-}
-/*Padding between icons*/
-i.fab{
-    padding: 4px;
+/* About section */
+/* Menus section */
+.menus-section {
+  background-color: #a9a9a9; /* Background colour */
+  color: white; /* Colour of text */
 }
 
-/*----------Media queries on mobile----------*/
-/*Images on mobile*/
+/* Gallery section */
+/* Contact us section */
+.contact-us-section {
+  background-color: #a9a9a9; /* Background colour */
+  color: white; /* Colour of text */
+}
+
+/* Page heading */
+.page-heading {
+  padding: 40px; /* Padding */
+  text-align: center; /* Centering text */
+  background-color: #a9a9a9; /* Background colour */
+  color: white; /* Text colour */
+  letter-spacing: 1px; /* Spacing between letters */
+  font-size: large; /* Largens font size */
+}
+
+/* Page title */
+.page-title {
+  padding: 20px; /* Padding */
+  text-decoration: underline; /* Underlines page title text */
+}
+
+/* Page paragraph */
+.page-paragraph {
+  padding: 20px; /* Padding */
+}
+
+/* Menu Page */
+/* Menus row */
+.menus {
+  padding: 60px; /* Padding around menus */
+  text-align: center; /* Centering text */
+}
+
+/* Menu title */
+.menu-title {
+  padding: 20px; /* Padding around menus title */
+}
+
+/* Menu descrition */
+.menu-description {
+  letter-spacing: 1px; /* Spacing between letters */
+}
+
+/* Menu image */
+.menu-image {
+  height: 300px; /* Height of image */
+  width: 300px; /* Width of image */
+  padding: 20px; /* Padding around image */
+  margin: auto; /* Margin auto*/
+  display: block;
+}
+
+/* Party menu */
+/* Wedding menu */
+.wedding-menu {
+  background-color: #a9a9a9; /* Background colour */
+  color: white; /* Text colour */
+}
+/* BBQ menu */
+/* Desserts menu */
+.desserts-menu {
+  background-color: #a9a9a9; /* Background colour */
+  color: white; /* Text colour */
+}
+
+/* Gallery Page */
+/* Container colour */
+.gallery-container-grey {
+  background-color: #a9a9a9; /* Background colour */
+}
+/* Gallery images */
+.gallery-image {
+  height: 300px; /* Height of image */
+  width: 300px; /* Width of image */
+  padding: 20px; /* Padding around image */
+  margin: auto; /* Margin auto */
+  display: block;
+}
+
+/* Contact Page */
+/* Contact form */
+.contact-form {
+  padding: 36px; /* Padding */
+}
+/* Submit button */
+.submit-button {
+  text-align: center; /* Positiong text in the center */
+}
+
+/* Footer */
+footer {
+  background-color: white; /* Background colour */
+  color: black; /* Text colour */
+  font-size: 1.15rem; /* Size of font */
+  font-weight: 600; /* Thickens font */
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1); /* Box shadow */
+  font-family: "Merriweather", sans-serif; /* Font family */
+  padding: 20px; /* Padding */
+  text-align: center; /* Positions text in the center */
+}
+
+/* Footer section */
+.footer-section {
+  padding: 20px; /* Padding */
+}
+/* Footer heading */
+.footer-heading {
+  padding-bottom: 20px; /* Padding bottom S*/
+}
+
+/* Links */
+a {
+  color: black; /* Colour of links */
+}
+
+/* Change to blue hoovering over links */
+footer > a:hoover {
+  color: blue; /* Colour of links while hovering over links */
+}
+
+/* Padding between icons */
+i.fab {
+  padding: 4px; /* Padding */
+}
+
+/* Media queries on mobile */
+/* Images on mobile */
 @media only screen and (max-width: 600px) {
-    .home-section, .menus
-    {
-    margin:0;
-    }
-    .home-section-image, .menu-image
-    {
+  .home-section,
+  .menus {
+    margin: 0;
+  }
+  .home-section-image,
+  .menu-image {
     width: 100%;
     height: 100%;
+    margin-top: 20px;
     padding: 0;
-    }
-    }
+  }
+}
