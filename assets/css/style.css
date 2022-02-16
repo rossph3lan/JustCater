@@ -159,6 +159,11 @@
 .contact-form {
   padding: 36px; /* Padding */
 }
+
+/* Contact container */
+.contact-container {
+  padding: 40px; /* Padding */
+}
 /* Submit button */
 .submit-button {
   text-align: center; /* Positiong text in the center */
